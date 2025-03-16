@@ -31,7 +31,7 @@ def display_llm_item(item_data, col, articles_fv, customer_id, tracker, fg_updat
     if not img:
         return False
         
-    col.image(img, use_column_width=True)
+    col.image(img, use_container_width=True)
     
     # View Details button
     if col.button("📝 View Details", key=f'llm_details_{item_id}'):

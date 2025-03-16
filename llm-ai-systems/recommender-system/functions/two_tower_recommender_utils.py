@@ -15,7 +15,7 @@ def display_item(item_id, score, articles_fv, customer_id, tracker, source, fg_u
     img = fetch_and_process_image(image_url)
     
     if img:
-        st.image(img, use_column_width=True)
+        st.image(img, use_container_width=True)
         st.write(f"**🎯 Score:** {score:.4f}")
         
         # View Details button
