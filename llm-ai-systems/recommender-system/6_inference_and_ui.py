@@ -39,7 +39,7 @@ def initialize_page():
 
 @st.cache_resource()
 def get_hopsworks_project():
-    project = hopsworks.login(api_key_value = "Dkez37cDPamSnJUf.HDsceFNWsdWX9blAXWtJxcez9tYRKw6eDYN2TQ5AbNjr9lrQKlMLB7nAZ2wgGBQd")
+    project = hopsworks.login(api_key_value = hopswork_key)
     return project
 
 
