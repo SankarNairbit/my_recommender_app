@@ -11,6 +11,10 @@ from llm_recommender.utils import llm_recommendations
 from functions.interaction_tracker import get_tracker
 from functions.feature_group_updater import get_fg_updater
 from llm_assistant.inference import handle_llm_assistant_page
+import streamlit as st
+
+hopswork_key = st.secrets["hopswork_key"]
+
 
 
 # Configure logging
